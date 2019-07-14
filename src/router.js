@@ -20,7 +20,7 @@ class Router {
       self.node.innerHTML = "";
     } else {
       self.node.innerHTML = "";
-      this.node.appendChild(component.render());
+      self.node.appendChild(component.render());
     }
   }
 }
